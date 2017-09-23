@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SPV_Admirals_Club_Display
+namespace WeatherWidget
 {
     class WeatherForecast
     {
