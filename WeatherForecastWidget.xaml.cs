@@ -19,7 +19,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
-namespace SPV_Admirals_Club_Display
+namespace WeatherWidget
 {
     /// <summary>
     /// Interaction logic for WeatherForecastWidget.xaml
@@ -172,8 +172,6 @@ namespace SPV_Admirals_Club_Display
                 }
                 catch
                 {
-                    System.Windows.Forms.MessageBox.Show("Failed");
-
                     i++;
                 }
             }
@@ -303,11 +301,6 @@ namespace SPV_Admirals_Club_Display
                 }
                 catch
                 {
-                    //using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"[ File Location ]", true))
-                    //{
-                    //    file.WriteLine(DateTime.Now + "  -  " + r);
-                    //}
-
                     i++;
                 }
             }
